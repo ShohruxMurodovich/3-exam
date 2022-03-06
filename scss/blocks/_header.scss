@@ -94,10 +94,13 @@
 
   .nav__list{
     display: none;
-    width: 90vw;
+    width: 95vw;
     height: 80vh;
     padding: 25px;
     background-color: #1C1C1E;
+    background-image: url(../../images/background-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     top: 80px;
     left: 0;
@@ -161,11 +164,14 @@
 
   .nav__list{
     display: none;
-    width: 100vw;
-    height: 80vh;
+    width: 95vw;
+    height: 100vh;
     margin: 0 auto;
     padding: 20px;
     background-color: #1C1C1E;
+    background-image: url(../../images/background-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     top: 80px;
     left: 0;
@@ -229,9 +235,12 @@
   .nav__list{
     display: none;
     width: 95vw;
-    height: 80vh;
-    padding: 0px;
+    height: 100vh;
+    padding: 20px 5px;
     background-color: #1C1C1E;
+    background-image: url(../../images/background-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-right: 0;
     position: absolute;
     top: 80px;
