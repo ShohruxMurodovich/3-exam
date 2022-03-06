@@ -651,18 +651,20 @@ img {
   }
   .nav__list {
     display: none;
-    width: 100vw;
+    width: 95vw;
     height: 80vh;
-    margin: 0 auto;
     padding: 0px;
     background-color: #1C1C1E;
+    margin-right: 0;
     position: absolute;
     top: 80px;
     left: 0;
     z-index: 3;
   }
   .nav__item {
-    max-width: 300px;
+    width: 100%;
+    max-width: 250px;
+    margin-right: 0;
     margin-left: 0;
     padding: 10px 15px;
   }
