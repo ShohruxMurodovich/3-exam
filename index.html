@@ -5,9 +5,96 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
-  <title>Template Repo</title>
+  <title>Soffit</title>
 </head>
 <body>
 
+  <div class="container">
+
+    <div class="case">
+
+      <header class="header">
+
+        <a href="./index.html" class="header__logo">
+          <img src="./images/logo.svg" alt="site logo">
+        </a>
+
+        <div class="header__right">
+          <nav class="header__nav nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">About us</a></li>
+            </ul>
+          </nav>
+          <div class="header-lang">
+            <a href="#" class="header-lang__item">Uz</a>
+            <a href="#" class="header-lang__item">Ru</a>
+            <a href="#" class="header-lang__item">En</a>
+          </div>
+        </div>
+        <button class="header__hamburg" type="button"><img src="./images/btn.svg" alt="button"></button>
+      </header>
+
+      <main>
+        <section class="hero">
+
+          <div class="hero-left">
+
+            <form action="https://echo.htmlacademy.ru/" method="POST" autocomplete="off" class="form">
+
+              <label class="form__label">Ism Familiya
+                <input class="form__input form__input--name" type="text" name="user_name" required placeholder="Ismingini kiriting">
+              </label>
+
+              <label class="form__label">Companiyani kiriting
+                <input class="form__input form__input--company" type="text" name="user_company" required placeholder="Companiya">
+              </label>
+
+              <label class="form__label">Telegram username
+                <input class="form__input form__input--telegram" type="text" name="telegram_user_name" required placeholder="Username">
+              </label>
+
+              <label class="form__label">Phone number
+                <input class="form__input form__input--phone"  type="number" name="phone_number" required placeholder="Phone number">
+              </label>
+
+              <label class="form__label">Sayni turini tanlang
+                <select required class="form__select form__select--site" name="site__type">
+                  <option value="Corparativ-sayt" selected>Corparativ sayt</option>
+                  <option value="shaxsiy-sayt">Shaxsiy sayt </option>
+                </select>
+              </label>
+
+              <label class="form__label">Sizga bo’glanish usulini tanlang
+                <select required class="form__select form__select--messenger" name="communication__type">
+                  <option value="Telegram" selected>Telegram</option>
+                  <option value="SMS">SMS</option>
+                  <option value="instagram">Instagram</option>
+                </select>
+              </label>
+
+              <label class="form__label form__label--area">Message
+                <textarea required class="form__area" name="message" cols="30" rows="10"></textarea>
+              </label>
+
+              <button type="submit" class="form__btn">Jo’natish <img src="./images/Vector.svg" alt="arrov icon"></button>
+            </form>
+          </div>
+
+          <div class="hero-right">
+            <h2 class="hero-right__title">Ux & Ui design</h2>
+            <p class="hero-right__mobile">In the current tech scenario, one can’t predict what device their user will use to interact with a product.</p>
+            <p class="hero-right__text">In the current tech scenario, one can’t predict what device their user will use to interact with a product. This is why it’s always a good idea to build something that supports all devices. However it is nearly impossible to design for every screen size with so many .</p>
+          </div>
+
+        </section>
+      </main>
+
+    </div>
+
+  </div>
+
+  <script src="./js/main.js"></script>
 </body>
 </html>
